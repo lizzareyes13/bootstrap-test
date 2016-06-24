@@ -1,0 +1,29 @@
+.white {
+  background-color: white;
+  height: 100px;
+}
+.black {
+  background-color: black;
+  height: 100px;
+}
+.width {
+  width: 1200px;
+}
+.white:hover{
+  background-color:blue;
+
+}
+
+
+/*
+.width will stabilize the width of your grid boxes. so even if people view your
+smaller screens the width of your boxes will stay the same (of coarse it should
+  always have its counterpart WIDTH in the index.html)
+  example: <div class="container width">
+
+  the same goes for the classes:
+  .white (  <div class="col-md-1 white"></div>  )
+  .black (  <div class="col-md-1 black"></div>  )
+  and other classes.
+
+*/
